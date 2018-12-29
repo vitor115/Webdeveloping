@@ -1,0 +1,11 @@
+span.menu  >  a {
+    font-size: 30px;
+    margin-left: 15px;
+    color: rgb(3, 76, 136);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    background-color: rgb(12, 203, 232);
+}
+span.menu > a:hover{
+    border: 4px solid rgba(9, 76, 133, 0.63);
+}
