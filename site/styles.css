@@ -1,11 +1,54 @@
+
+html{
+    background-color: rgb(3, 76, 136); 
+}
+
+p , h1, h2{    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;}
+
 span.menu  >  a {
     font-size: 30px;
     margin-left: 20px;
     color: rgb(3, 76, 136);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
+    position: relative;
+    bottom: 35px;
     
 }
 span.menu > a:hover{
     border: 4px solid rgba(9, 76, 133, 0.63);
 }
+
+#logo{
+    text-decoration: none;
+    height: 125px;
+    width: 200px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image:url(backgroundmenu.png); 
+    border: solid black;
+    height: 150px;
+}
+
+.para{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.sub{
+    margin-bottom: 20px;
+    padding-top:20px;
+}
+@media(min-width: 992px) and (max-width: 1199px){
+    p{
+        color: blue
+    }
