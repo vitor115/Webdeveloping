@@ -1,0 +1,12 @@
+.navbar-brand h1{
+    position: absolute;
+    left: 20px;
+    margin-top: 0px;
+}
+
+#menu-colapse{
+    margin-top: 25px;
+}
+
+.navbar-default{
+}

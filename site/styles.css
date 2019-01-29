@@ -1,6 +1,6 @@
 
-html{
-    background-color: rgb(3, 107, 192); 
+body{
+    background-color: rgb(141, 162, 182); 
 }
 
 p , h1, h2{    
@@ -52,3 +52,4 @@ header{
     p{
         color: blue
     }
+}
