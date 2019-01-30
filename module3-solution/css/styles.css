@@ -2,11 +2,26 @@
     position: absolute;
     left: 20px;
     margin-top: 0px;
+    color: rgb(66, 140, 204);
 }
-
 #menu-colapse{
     margin-top: 25px;
 }
 
-.navbar-default{
+#header-nav{
+    background-color: yellowgreen;
+}
+
+#box{
+    background-color: aquamarine;
+    height: 1000px;
+    overflow: hidden;
+}
+
+section .row .container{
+    padding: 10px;
+    text-align: center;
+}
+.row{
+    position: relative;
 }
