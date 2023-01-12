@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    border: dotted red;
+    height: 100vh;
+}
+
+.flex aside{
+    padding: 5px;
+    background-color: aqua;
+    flex: 1;
+}
+.flex main{
+    padding: 5px;
+    background-color: rgb(97, 192, 255);
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+.flex main article{
+    padding: 5px;
+}
+.flex main article:nth-child(1){
+    background-color: rgb(97, 255, 131);
+    flex: 3;
+}
+.flex main article:nth-child(2){
+    background-color: rgb(252, 255, 97);
+    flex: 1;
+}
+.flex main article:nth-child(3){
+    background-color: rgb(252, 79, 180);
+    flex: 1;
+}

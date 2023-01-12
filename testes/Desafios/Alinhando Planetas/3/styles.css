@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+img{
+    border: solid black;
+    width: 30%;
+    height: auto;
+}
